@@ -10,5 +10,6 @@
   document.getElementById("mainTable__header1").innerHTML="Стугна (ПТУР)";
 
 
-  document.getElementsByClassName("mainTable__image")[0].style.width = "900px";
+ var elems = document.getElementsByTagName('img');
+ for(var i=0; i<elems.length; i++) elems[i].style.width='900px';
 
